@@ -67,6 +67,15 @@ If not fount in first list we then search through "weekend" list and print resul
 
 
 
+###### Week 06 Task
+###### root.py
 
+Source: chatgpt
+
+Chatgpt used a slightly diffenent calculation to other Newtons method formula.
+while abs(num - guess ** 2) > .0001:
+Here it uses the calculation of the difference betweeen the number and the squre  of the initial guess and so on.
+
+I searched almost 20 websites to see if i could find this calculation anywhere but wasnt able to find it.
 
 
