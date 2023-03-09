@@ -76,6 +76,8 @@ Chatgpt used a slightly diffenent calculation to other Newtons method formula.
 while abs(num - guess ** 2) > .0001:
 Here it uses the calculation of the difference betweeen the number and the squre  of the initial guess and so on.
 
+The code it came up with was in the form of a function so I just tweaked it around a bit to just have it as normal code
+
 I searched almost 20 websites to see if i could find this calculation anywhere but wasnt able to find it.
 
 
