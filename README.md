@@ -81,6 +81,8 @@ The code it came up with was in the form of a function so I just tweaked it arou
 I searched almost 20 websites to see if i could find this calculation anywhere but wasnt able to find it.
 
 
+
+#
 ######## Week 08 Task
 ######## plottask.py
 
@@ -88,3 +90,9 @@ https://www.w3schools.com/python/python_ml_normal_data_distribution.asp
 https://vitalflux.com/normal-distribution-explained-python-examples/?utm_content=cmp-true
 
 Plot a Normal Histogram with Mean of 10 and Standard Deviation of 2
+The variables Mean: 'm' Standard Deviation: 'sd' can be amended at start of program for a different value of choosing.
+m = 10
+sd = 2
+
+The size of this random sample is 1000 ad  can be altered inside the random call
+norm_data = np.random.normal(m, sd, size=1000 )
