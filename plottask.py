@@ -18,9 +18,12 @@ plt.title('Normal Distribution (Mean = 10, STD = 2)', fontsize = 15, color = 're
 plt.xlabel('Values of random Varible X', fontsize = 10, color = 'red')
 plt.ylabel('Probability', fontsize = 10, color = 'red')
 
-xpoints = np.array(range(1,10))
+xpoints = np.array(range(0,10))
 ypoints = xpoints * xpoints * xpoints
 
-plt.plot(xpoints, ypoints)
+plt.plot(xpoints, ypoints, )
+plt.plot(xpoints, ypoints, label = "h(x)=x^3", color = "red")
+plt.plot(label = "h(x)=x^3")
+plt.legend()
 
 plt.show()
