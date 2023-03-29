@@ -21,7 +21,6 @@ plt.ylabel('Probability', fontsize = 10, color = 'red')
 xpoints = np.array(range(0,10))
 ypoints = xpoints * xpoints * xpoints
 
-plt.plot(xpoints, ypoints, )
 plt.plot(xpoints, ypoints, label = "h(x)=x^3", color = "red")
 plt.plot(label = "h(x)=x^3")
 plt.legend()
