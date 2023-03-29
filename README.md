@@ -83,13 +83,24 @@ The code it came up with was in the form of a function so I just tweaked it arou
 I searched almost 20 websites to see if i could find this calculation anywhere but wasnt able to find it.
 
 
-####### Week 07 Task
+# ####### Week 07 Task
+# es.py
+
+https://machinelearningmastery.com/command-line-arguments-for-your-python-script/
+https://pythonexamples.org/python-count-occurrences-of-word-in-text-file/
+
+file_to_read = sys.argv[1]
+We have to tell our program to take in an argument when our program is called
+Here it will be moby_dick.txt
+
+data.count() is used to count both lowercase 'e' and upper case 'E'.
+Both of these figures are then added to print out our result
 
 
 
 #
-######## Week 08 Task
-######## plottask.py
+# ####### Week 08 Task
+# ####### plottask.py
 
 https://www.w3schools.com/python/python_ml_normal_data_distribution.asp
 https://vitalflux.com/normal-distribution-explained-python-examples/?utm_content=cmp-true
