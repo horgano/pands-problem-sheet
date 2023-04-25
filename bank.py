@@ -10,5 +10,4 @@ num2 = int(input('Enter amount2 (in cents): '))
 sum = num1 + num2
 
 print (f'The sum of these 2 numbers in EUROs is: €{sum/100}')
-print (f'The sum of these 2 numbers in EUROs is: €{sum/100}')
-print ('The sum of these 2 numbers in EUROs is: €{}'.format(sum/100))
+
