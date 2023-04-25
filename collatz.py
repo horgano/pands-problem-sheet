@@ -7,7 +7,8 @@
 # Output successive calcs until program ends
 
 x = int(input("Enter a positive integer: "))
-
+# Assign x to y so y can be addd in ouput at end
+y = x
 collatz = []
 
 while (x != 1):
@@ -20,4 +21,4 @@ while (x != 1):
 
 # print (collatz)
 
-print (*collatz, sep = " ")
+print (y, *collatz, sep = " ")
